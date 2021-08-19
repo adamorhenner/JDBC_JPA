@@ -33,7 +33,7 @@
 
         <!-- Implementacao do JPA -->
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-        <!--  <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider> -->
+<!--            <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>-->
 
         <!-- Classes (entidades) que serao mapeadas -->
         <class>classes.Aluno</class>
@@ -55,10 +55,10 @@
             <property name="hibernate.hbm2ddl.auto" value="create" />  <!-- Possible values for hibernate.hbm2ddl.auto are: validate, update, create, create-drop -->
 
             <!-- Configuracoes do EclipseLink (os parametros so sao reconhecidos se estiver usando a implementacao do EclipseLink) -->
-            <!--            <property name="eclipselink.target-database" value="MySQL"/>-->
-            <!--            <property name="eclipselink.logging.level.sql" value="FINE" />-->
-            <!--            <property name="eclipselink.logging.parameters" value="true" />-->
-            <!--            <property name="eclipselink.ddl-generation" value="drop-and-create-tables" />-->
+<!--                        <property name="eclipselink.target-database" value="Oracle"/>-->
+<!--                        <property name="eclipselink.logging.level.sql" value="FINE" />-->
+<!--                        <property name="eclipselink.logging.parameters" value="true" />-->
+<!--                        <property name="eclipselink.ddl-generation" value="drop-and-create-tables" />-->
         </properties>
 
     </persistence-unit>

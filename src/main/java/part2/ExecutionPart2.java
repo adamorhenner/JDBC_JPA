@@ -3,6 +3,7 @@ package part2;
 import classes.Aluno;
 import classes.Estado;
 
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
